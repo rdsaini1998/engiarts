@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Merriweather|Raleway|Roboto');
+*{
+    margin:0;
+    padding:0;
+}
+.font1{
+    font-family:Lato;
+}
+.font2{
+    font-family:Montserrat;
+}
+.font3{
+    font-family:Merriweather;
+}
+.font4{
+    font-family:Raleway;
+    font-size:20px;
+}
+.font5{
+    font-family:Roboto;
+    font-size:13px;
+}
+.main-nav{
+    background-color: black;
+    display:flex;
+}
+.main-nav li{
+    margin:7px 20px;
+}
+.main-nav a{
+    text-decoration:none;
+    color:white;
+    background-color:rgba(255,255,255,0.15);
+    font-size:1.4em;
+}
+.main-nav a:hover{
+    background-color:rgba(255,255,255,0.5);
+}
+@media only screen and (max-width:680px){
+    .main-nav{
+        font-size:0.7em;
+        padding:0;
+    }
+    .main-nav li{
+        margin:7px 5px;
+    }
+}
+li{
+    list-style: none;
+    padding:10px;
+}
+#push{
+    margin-left:auto;
+}
+.stick{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1;
+}
+.eon{
+    background-color:black;
+    height:9vh;
+    width:100%;
+    background-attachment:fixed;
+}
+.large-img{
+    background-image:url("Images/Logo_blackBG.jpg");
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+    background-attachment:fixed;
+}
+.para,h2{
+    margin:20px;
+}
+h2{
+    text-align:center;
+    font-size:2.5em;
+}
+.para{
+    font-size:25px;
+}
+.text{
+    text-align:center;
+    margin:25px auto;
+}
+.dark{
+    font-weight:bold;
+}
+.main-footer{
+    background-color:black;
+    color:white;
+    padding:0.25em 0;
+    width:100vw;
+}
+#footer-text{
+    font-size:1.5em;
+}
+.container{
+    max-width:900px;
+    margin:0 auto;
+    padding:0 1.5em;
+}
+.footer-container{
+    display:flex;
+    align-items:center;
+}
+.footer-container ul{
+    flex-grow:1;
+    text-align:end;
+}
+.footer-nav a{
+    display:inline-block;
+    text-align:center;
+    padding:10px 15px;
+}
+.footer-nav ul{
+    margin:0;
+    text-align:center;
+    padding:5px 15px;
+}
+.footer-nav li{
+    display:inline;
+}
+.footer-nav img{
+    width:50px;
+    height:50px;
+}
+.gall-cont{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.gall-cont img{
+    padding:5px 10px;
+     filter:grayscale(100%); 
+    transition:all 1s;
+}
+.gall-cont img:hover{
+     filter:grayscale(0);
+    transform:scale(1.1);
+}
+#map{
+    text-align:center;
+}
